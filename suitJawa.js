@@ -22,6 +22,8 @@ while(tanya){
         hasil=(comp=='semut') ? 'MENANG' : 'KALAH';
     }else if(p='semut'){
         hasil=(comp=='gajah') ? 'MENANG' : 'KALAH';
+    }else{
+        hasil='Kamu salah menginputkan pilihan! Silahkan coba lagi';
     }
     //tampilkan hasil
     alert('Kamu memilih '+ p + ' dan komputer memilih '+ comp+ '. Maka hasilnya kamu '+hasil);
