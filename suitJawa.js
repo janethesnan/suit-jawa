@@ -19,7 +19,7 @@ if (p==comp){
 }else if(p='orang'){
     hasil=(comp=='semut') ? 'MENANG' : 'KALAH';
 }else if(p='semut'){
-    hasi=(comp=='gajah') ? 'MNANG' : 'KALAH';
+    hasil=(comp=='gajah') ? 'MNANG' : 'KALAH';
 }
 //tampilkan hasil
 alert('Kamu memilih '+ p + ' dan komputer memilih '+ comp+ '. Maka hasilnya kamu '+hasil);
