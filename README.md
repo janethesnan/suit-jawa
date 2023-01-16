@@ -1,3 +1,4 @@
 # suit-jawa
-Permainan Suit Gajah Semut Orang /n
+Permainan Suit Gajah Semut Orang.
+
 Belajar Membuat Program Permaian
