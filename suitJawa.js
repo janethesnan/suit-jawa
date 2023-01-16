@@ -5,7 +5,7 @@ var p= prompt('pilih salah satu : gajah, semut, orang');
 var comp = Math.random();
 if (comp <0.34){
     comp='gajah';
-}else if(comp >= 0.34 && <=0.67){
+}else if(comp >= 0.34 && < 0.67){
     comp = 'orang';
 }else{
     comp = 'semut';
@@ -19,7 +19,7 @@ if (p==comp){
 }else if(p='orang'){
     hasil=(comp=='semut') ? 'MENANG' : 'KALAH';
 }else if(p='semut'){
-    hasil=(comp=='gajah') ? 'MNANG' : 'KALAH';
+    hasil=(comp=='gajah') ? 'MENANG' : 'KALAH';
 }
 //tampilkan hasil
 alert('Kamu memilih '+ p + ' dan komputer memilih '+ comp+ '. Maka hasilnya kamu '+hasil);
