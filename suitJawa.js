@@ -16,11 +16,11 @@ while(tanya){
     var hasil= '';
     if (p==comp){
         hasil= 'SERI';
-    }else if(p='gajah'){
+    }else if(p=='gajah'){
         hasil=(comp=='orang') ? 'MENANG' : 'KALAH';
-    }else if(p='orang'){
+    }else if(p=='orang'){
         hasil=(comp=='semut') ? 'MENANG' : 'KALAH';
-    }else if(p='semut'){
+    }else if(p=='semut'){
         hasil=(comp=='gajah') ? 'MENANG' : 'KALAH';
     }else{
         hasil='Kamu salah menginputkan pilihan! Silahkan coba lagi';
